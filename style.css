@@ -1,0 +1,30 @@
+h1{
+    color:red;
+    text-align: center;
+    font-size: 1.75pc;
+}
+h2{
+    color:aqua;
+}
+.overallcontainer{
+    background-color: beige;
+    margin: 0px 100px 10px 100px;
+    padding-bottom: 35px;
+}
+.container{
+    background-color:rgb(10, 10, 10);
+    margin:10px 250px 10px 250px;
+    padding:10px 0px 10px 150px;
+    /* text-align: center; */
+}
+#sq,#ll,#bt,#fd,#fw,#fbc,#bd,#db{
+    display: none;
+}
+ul{
+    color:aquamarine;
+    font-size: 1.25pc;
+}
+ul:hover{
+    color:yellow;
+    cursor:grab;
+}
