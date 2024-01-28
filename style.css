@@ -14,8 +14,8 @@ h2{
 .container{
     background-color:rgb(10, 10, 10);
     margin:10px 250px 10px 250px;
-    padding:10px 0px 10px 150px;
-    /* text-align: center; */
+    padding:10px 0px 10px 150px; 
+    text-align: center;
 }
 #sq,#ll,#bt,#fd,#fw,#fbc,#bd,#db{
     display: none;
@@ -24,7 +24,8 @@ ul{
     color:aquamarine;
     font-size: 1.25pc;
 }
-ul:hover{
-    color:yellow;
-    cursor:grab;
+.sq:hover,.ll:hover,.bt:hover,.fd:hover,.fw:hover,.fbc:hover,.bd:hover,.db:hover {
+    text-decoration: underline;
+    color: yellow;
+    cursor: grab;
 }
